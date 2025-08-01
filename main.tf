@@ -32,7 +32,7 @@ resource "aws_subnet" "hashicat" {
   }
 }
 
-resource "aws_security_group" "hashicat" {
+resource "aws_security_group" "hashicat1" {
   name = "${var.prefix}-security-group"
 
   vpc_id = aws_vpc.hashicat.id
