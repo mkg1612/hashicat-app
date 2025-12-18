@@ -24,7 +24,7 @@ resource "aws_vpc" "hashicat" {
 }
 
 resource "aws_subnet" "hashicat" {
-  vpc_id     = aws_vpc.hashicat.id
+  vpc_id     = aws_vpc.hashicat.id22
   cidr_block = var.subnet_prefix
 
   tags = {
